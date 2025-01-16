@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Simulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        .output {
+            background: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 10px;
+            overflow-y: auto;
+            max-height: 300px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bank Simulation</h1>
+    <p>Use the buttons below to interact with the account:</p>
+
+    <button id="displayDetails">Display Account Details</button>
+    <button id="depositMoney">Deposit Rs.50</button>
+    <button id="withdrawMoney">Withdraw Rs.30</button>
+
+    <h2>Output:</h2>
+    <div class="output" id="output"></div>
+
+    <script src="Day2Task.js"></script>
+</body>
+
+</html>
